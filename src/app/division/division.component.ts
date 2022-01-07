@@ -9,7 +9,7 @@ import { DivisionService } from '../services/division.service';
 })
 export class DivisionComponent implements OnInit {
 
-  divisions?:Division[]
+  divisions?:Division[];
   currentDivision:Division={};
   name='';
   constructor(private divisionService:DivisionService) { }
